@@ -33,17 +33,23 @@
       <h1 class="visually-hidden">Пинк</h1>
       <section class="links">
         <h2 class="visually-hidden">Ссылки для скачивания</h2>
-        <img class="demo-image">
+        <img class="links__image" src="http://placehold.it/320x462" width="320" height="462" alt="Пример использования приложения">
         <a class="links__default-link button">Скачать приложение</a>
-        <ul class="links__store-list store-list">
-          <li>
-            <a class="store-list__item store-list__item--apple">Скачать приложение для iOS</a>
+        <ul class="links__list store-list">
+          <li class="store-list__item store-list__item--apple">
+            <a class="store-list__link" href="#">
+              <span class="visually-hidden">Скачать приложение для iOS</span>
+            </a>
           </li>
-          <li>
-            <a class="store-list__item store-list__item--android">Скачать приложение для Android</a>
+          <li class="store-list__item store-list__item--android">
+            <a class="store-list__link" href="#">
+              <span class="visually-hidden">Скачать приложение для Android</span>
+            </a>
           </li>
-          <li>
-            <a class="store-list__item store-list__item--windows">Скачать приложение для Windows</a>
+          <li class="store-list__item store-list__item--windows">
+            <a class="store-list__link" href="#">
+              <span class="visually-hidden">Скачать приложение для Windows</span>
+            </a>
           </li>
         </ul>
         <p class="links__description">Доступно для iPhone, iPad, Android, Windows Phone, OS X, Windows 8</p>
@@ -53,36 +59,36 @@
           <h2 class="visually-hidden">Преимущества</h2>
           <p class="advantages__tagline">
             <em class="advantages__tagline-phrase">Устали от серости мегаполиса?</em>
-            <em class="advantages__tagline-phrase">Нам есть, что предложить!</em>
+            <em class="advantages__tagline-phrase">Нам есть, что вам предложить!</em>
           </p>
         </header>
         <ul class="advantages__list">
-          <li class="advantages__item advantage-list-item">
-            <h3 class="advantage-list-item__title">Поднимает настроение</h3>
-            <p class="advantage-list-item__description">Приложение позволит вам победить осеннюю хандру и депрессию буквально в несколько кликов!</p>
+          <li class="advantages__item">
+            <h3 class="advantages__item-title">Поднимает настроение</h3>
+            <p class="advantages__item-description">Приложение позволит вам победить осеннюю хандру и депрессию буквально в несколько кликов!</p>
           </li>
-          <li class="advantages__item advantage-list-item">
-            <h3 class="advantage-list-item__title">Меняет мир вокруг</h3>
-            <p class="advantage-list-item__description">Сделайте снимок и украсьте его смайликом или текстовой подписью, чтобы усилить эффект</p>
+          <li class="advantages__item">
+            <h3 class="advantages__item-title">Меняет мир вокруг</h3>
+            <p class="advantages__item-description">Сделайте снимок и украсьте его смайликом или текстовой подписью, чтобы усилить эффект</p>
           </li>
-          <li class="advantages__item advantage-list-item">
-            <h3 class="advantage-list-item__title">Заводит новых друзей</h3>
-            <p class="advantage-list-item__description">Ставьте лайки, комментируйте, делитесь фотографиями с друзьями и заводите новых</p>
+          <li class="advantages__item">
+            <h3 class="advantages__item-title">Заводит новых друзей</h3>
+            <p class="advantages__item-description">Ставьте лайки, комментируйте, делитесь фотографиями с друзьями и заводите новых</p>
           </li>
         </ul>
-        <img class="advantages__image" src="http://placehold.it/157x330" width="157" height="330">
+        <img class="advantages__image" src="http://placehold.it/157x330" width="157" height="330" alt="Всем привет!">
       </section>
       <section class="reviewes">
         <div class="reviewes__wrapper slider">
           <h2 class="visually-hidden">Отзывы</h2>
           <ul class="reviewes__list slider__list">
             <li class="reviews__item slider__item">
-              <h3 class="reviews__author">Николай Петров</h3>
-              <p class="reviews__review">«Это приложение перевернуло мой мир и позволило по-новому взглянуть на привычные серые вещи! А еще я познакомился со своей будущей женой в комментариях к выложенной фотографии!»</p>
+              <h3 class="reviews__item-author">Николай Петров</h3>
+              <p class="reviews__item-quote">«Это приложение перевернуло мой мир и позволило по-новому взглянуть на привычные серые вещи! А еще я познакомился со своей будущей женой в комментариях к выложенной фотографии!»</p>
             </li>
           </ul>
           <p class="reviewes__toggles slider__toggles">
-            <button class="slider__toggle" type="button">1</button>
+            <button class="slider__toggle slider__toggle--current" type="button">1</button>
             <button class="slider__toggle" type="button">2</button>
             <button class="slider__toggle" type="button">3</button>
           </p>
@@ -93,11 +99,11 @@
           <h2 class="visually-hidden">Цены</h2>
           <ul class="pricing__list slider__list">
             <li class="pricing__item slider__item">
-              <table>
+              <table class="pricing__item-table">
                 <thead>
-                  <th class="pricing__plan">
-                    <b>Стандарт</b>
-                    <i>3,99 USD</i>
+                  <th class="pricing__plan pricing__plan--hit">
+                    <b class="pricing__plan-name">Стандарт</b>
+                    <i class="pricing__plan-price">3,99 USD</i>
                   </th>
                 </thead>
                 <tr>
@@ -117,31 +123,31 @@
           </ul>
           <p class="pricing__toggles slider__toggles">
             <button class="slider__toggle" type="button">1</button>
-            <button class="slider__toggle" type="button">2</button>
+            <button class="slider__toggle slider__toggle--current" type="button">2</button>
             <button class="slider__toggle" type="button">3</button>
           </p>
         </div>
       </section>
       <section class="contacts">
-        <header>
+        <header class="contacts__header">
           <h2 class="visually-hidden">Контакты</h2>
-          <p>
-            <em>Остались вопросы?</em>
-            <em>Свяжитесь с нами!</em>
+          <p class="contacts__tagline">
+            <em class="contacts__tagline-phrase">Остались вопросы?</em>
+            <em class="contacts__tagline-phrase">Свяжитесь с нами!</em>
           </p>
         </header>
-        <ul class="contacts__list contact-list">
-          <li class="contact-list__item">
-            <b class="contact-list__legend">Звоните:</b>
-            <span class="contact-list__contact">+7 (812) 555-66-66</span>
+        <ul class="contacts__list">
+          <li class="contacs__item">
+            <b class="contacts__item-legend">Звоните:</b>
+            <span class="contacts__item-data">+7 (812) 555-66-66</span>
           </li>
-          <li class="contact-list__item">
-            <b class="contact-list__legend">Пишите:</b>
-            <span class="contact-list__contact">mail@htmlacademy.ru</span>
+          <li class="contacts__item">
+            <b class="contacts__item-legend">Пишите:</b>
+            <span class="contacts__item-data">mail@htmlacademy.ru</span>
           </li>
-          <li class="contact-list__item">
-            <b class="contact-list__legend">Приезжайте в гости:</b>
-            <span class="contact-list__contact">ул. Большая Конюшенная, 19/8</span>
+          <li class="contacts__item">
+            <b class="contacts__item-legend">Приезжайте в гости:</b>
+            <span class="contacts__item-data">ул. Большая Конюшенная, 19/8</span>
           </li>
         </ul>
         <div class="map"></div>
