@@ -1,0 +1,29 @@
+.advantages__header {
+  background-color: #ffffff;
+}
+
+.advantages__tagline-phrase {
+  font-style: normal;
+  font-weight: $light;
+  font-size: 24px;
+  line-height: $auto-line-height;
+  color: $blue-brand-color;
+}
+
+.advantages__list {
+  background-color: $gray-bgcolor;
+}
+
+.advantages__item-title {
+  font-weight: $bold;
+  font-size: 18px;
+  line-height: 24px;
+  color: #000000;
+}
+
+.advantages-item-description {
+  font-weight: $regular;
+  font-size: 14px;
+  line-height: 24px;
+  color: $blue-brand-color;
+}

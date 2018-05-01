@@ -1,0 +1,54 @@
+.photo-feed__tagline {
+  font-weight: $regular;
+  font-size: 14px;
+  line-height: 30px;
+  color: $blue-brand-color;
+}
+
+.photo-feed__list {
+  background-color: #ffffff;
+}
+
+.photo-feed__item {
+  background-color: $gray-bgcolor;
+}
+
+.photo-feed__item--badged::before {
+  content: "панорама дня";
+  font-weight: $bold;
+  font-size: 12px;
+  line-height: 24px;
+  text-transform: uppercase;
+  color: #ffffff;
+  background-color: $pink-brand-color;
+}
+
+.photo-feed__author {
+  font-weight: $bold;
+  font-size: 14px;
+  line-height: 24px;
+  color: $blue-brand-color;
+}
+
+.photo-feed__elapsed-time {
+  font-weight: $light;
+  font-size: 12px;
+  line-height: 24px;
+  text-transform: uppercase;
+  color: $blue-brand-color;
+}
+
+.photo-feed__comment {
+  font-weight: $regular;
+  font-size: 14px;
+  line-height: 24px;
+  color: $blue-brand-color;
+}
+
+.photo-feed__likes {
+  font-weight: $regular;
+  font-size: 12px;
+  line-height: 24px;
+  text-transform: uppercase;
+  color: $pink-brand-color;
+}

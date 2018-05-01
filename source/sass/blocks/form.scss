@@ -1,0 +1,42 @@
+.form__fieldset {
+  background-color: #ffffff;
+  border: none;
+}
+
+.form__fieldset:nth-child(2n) {
+  background-color: $gray-bgcolor;
+}
+
+.form__legend {
+  font-weight: $regular;
+  font-size: 14px;
+  line-height: 18px;
+  text-transform: uppercase;
+  color: $pink-brand-color;
+}
+
+.form__text-input-label {
+  font-weight: $regular;
+  font-size: 14px;
+  line-height: 30px;
+  text-transform: uppercase;
+  color: $pink-brand-color;
+}
+
+.form__label-content {
+  font-weight: $regular;
+  font-size: 18px;
+  line-height: 30px;
+  color: $blue-brand-color;
+}
+
+.form__note {
+  font-weight: $regular;
+  font-size: 14px;
+  line-height: 30px;
+  color: $blue-brand-color;
+}
+
+.form__note-star {
+  color: $pink-brand-color;
+}
