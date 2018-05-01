@@ -2,6 +2,12 @@
   background-color: #ffffff;
 }
 
+.advantages__tagline {
+  padding-top: 40px;
+  padding-left: 55px;
+  padding-right: 55px;
+}
+
 .advantages__tagline-phrase {
   font-style: normal;
   font-weight: $light;
@@ -11,6 +17,8 @@
 }
 
 .advantages__list {
+  padding-left: 30px;
+  padding-right: 30px;
   background-color: $gray-bgcolor;
 }
 

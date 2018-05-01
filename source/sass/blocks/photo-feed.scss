@@ -1,4 +1,5 @@
 .photo-feed__tagline {
+  padding-top: 45px;
   font-weight: $regular;
   font-size: 14px;
   line-height: 30px;
@@ -6,6 +7,8 @@
 }
 
 .photo-feed__list {
+  padding-left: 20px;
+  padding-right: 20px;
   background-color: #ffffff;
 }
 
