@@ -3,6 +3,8 @@
   <head>
     <meta charset="utf-8">
     <title>HTML Academy: Пинк</title>
+    <link href="css/style.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700&amp;subset=cyrillic" rel="stylesheet">
   </head>
   <body>
     <header class="page-header">
@@ -14,16 +16,16 @@
         <div class="main-nav__wrapper">
           <ul class="main-nav__list site-list">
             <li class="site-list__item">
-              <a href="index.html">Главная</a>
+              <a class="site-list__link" href="index.html">Главная</a>
             </li>
             <li class="site-list__item">
-              <a href="photo.html">Фотографии</a>
+              <a class="site-list__link" href="photo.html">Фотографии</a>
             </li>
             <li class="site-list__item site-list__item--active">
-              <a>Конкурс</a>
+              <a class="site-list__link">Конкурс</a>
             </li>
             <li class="site-list__item">
-              <a href="https://htmlacademy.ru/intensive/adaptive">HTML Academy</a>
+              <a class="site-list__link" href="https://htmlacademy.ru/intensive/adaptive">HTML Academy</a>
             </li>
           </ul>
         </div>
@@ -100,7 +102,7 @@
             </ul>
         </fieldset>
         <fieldset class="form__fieldset">
-          <legend class="form__radio-legend">С каким приложением путешествовали?</legend>
+          <legend class="form__legend">С каким приложением путешествовали?</legend>
           <ul class="form__radio-list">
             <li class="form__radio-item">
               <label class="form__label-wrapper">
@@ -127,7 +129,7 @@
           <legend class="form__legend">Опишите свои эмоции</legend>
           <textarea class="form__textarea" placeholder="Можно прям в красках, не стесняясь в выражениях"></textarea>
         </fieldset>
-        <button class="form__submit-button" type="submit">Отправить форму</button>
+        <button class="form__submit-button service-button" type="submit">Отправить форму</button>
         <p class="form__note"><span class="form__note-star">*</span> — Обязательные поля</p>
       </form>
     </main>
@@ -154,5 +156,23 @@
         </a>
       </p>
     </footer>
+
+    <section class="success-popup popup">
+      <h2 class="popup__title">Ваша заявка отправлена</h2>
+      <p class="popup__message">
+        Спасибо за ваше участие, ваша заявка уже
+        поступила к нам. В ближайшее время мы
+        рассмотрим ее и оповестим вас.
+      </p>
+      <button class="success-popup__close-button service-button" type="button">Закрыть окно</button>
+    </section>
+    <section class="failure-popup popup">
+      <h2 class="popup__title">Что-то пошло не так!</h2>
+      <p class="popup__message">
+        Проверьте поля, выделенные красным,
+        скорее всего вы забыли их заполнить
+      </p>
+      <button class="failure-popup__close-button service-button" type="button">Закрыть окно</button>
+    </section>
   </body>
 </html>

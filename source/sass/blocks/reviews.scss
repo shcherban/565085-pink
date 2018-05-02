@@ -1,0 +1,19 @@
+.reviews__list {
+  padding-left: 20px;
+  padding-right: 20px;
+  background-color: #ffffff;
+}
+
+.reviews__item-author {
+  font-weight: $bold;
+  font-size: 18px;
+  line-height: 30px;
+  color: #000000;
+}
+
+.reviews__item-quote {
+  font-weight: $regular;
+  font-size: 14px;
+  line-height: 30px;
+  color: $blue-brand-color;
+}

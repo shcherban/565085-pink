@@ -1,0 +1,48 @@
+.pricing__item-table {
+  text-transform: uppercase;
+}
+
+.pricing__plan {
+  background-color: $blue-brand-color;
+}
+
+.pricing__plan--hit::before {
+  content: "хит";
+  font-weight: $semi-bold;
+  font-size: 14px;
+  line-height: 30px;
+  color: #ffffff;
+  background-color: $pink-brand-color;
+}
+
+.pricing__plan-name {
+  font-weight: $bold;
+  font-size: 18px;
+  line-height: 30px;
+  color: #ffffff;
+}
+
+.pricing__plan-price {
+  font-style: normal;
+  font-weight: $light;
+  font-size: 24px;
+  line-height: 30px;
+  color: #ffffff;
+}
+
+.pricing__field {
+  font-weight: $regular;
+  font-size: 14px;
+  line-height: 30px;
+  color: $blue-brand-color;
+}
+
+.pricing__value--yes {
+  background-image: url("../img/icon-yes.svg");
+  background-repeat: no-repeat;
+}
+
+.pricing__value--no {
+  background-image: url("../img/icon-no.svg");
+  background-repeat: no-repeat;
+}

@@ -1,0 +1,22 @@
+.upload {
+  padding-top: 45px;
+  background-color: $gray-bgcolor;
+}
+
+.upload__tagline {
+  font-weight: $regular;
+  font-size: 14px;
+  line-height: 30px;
+  background-color: #ffffff;
+}
+
+.upload__post-button {
+  color: $pink-brand-color;
+  border-color: $pink-brand-color;
+}
+
+.upload__cancel-button {
+  color: $blue-brand-color;
+  border-color: $blue-brand-color;
+  opacity: 0.1;
+}

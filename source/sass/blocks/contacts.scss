@@ -1,0 +1,26 @@
+.contacts {
+  padding-top: 40px;
+  background-color: #ffffff;
+}
+
+.contacts__tagline-phrase {
+  font-style: normal;
+  font-weight: $light;
+  font-size: 24px;
+  line-height: $auto-line-height;
+  color: $blue-brand-color;
+}
+
+.contacts__item-legend {
+  font-weight: $bold;
+  font-size: 18px;
+  line-height: $auto-line-height;
+  color: $blue-brand-color;
+}
+
+.contacts__item-data {
+  font-weight: $light;
+  font-size: 24px;
+  line-height: $auto-line-height;
+  color: $pink-brand-color;
+}
